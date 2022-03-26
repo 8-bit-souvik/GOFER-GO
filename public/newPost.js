@@ -1,7 +1,7 @@
 
 var imagekit = new ImageKit({
     publicKey: "public_didX9wfZiv5DrABxZgaKOYmNRuE=",
-    urlEndpoint: "https://ik.imagekit.io/weTalk/images",
+    urlEndpoint: "https://ik.imagekit.io/gofer-go/images",
     authenticationEndpoint: `${hostURL}auth/imagekit/redirect`,
 });
 

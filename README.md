@@ -1,9 +1,9 @@
-# About weTalk
+# About Gofer-Go
 This is an inter-college social media application where users can interact to each others and share their ideas, doubts or any queries and can do like, comment to others' post.
 
 
 <p align="center">
-<img src="https://i.ibb.co/F65rPFp/Screenshot-from-2022-03-26-22-17-48.png" alt="weTalk logo" width="40%" border="0">
+<img src="https://i.ibb.co/F65rPFp/Screenshot-from-2022-03-26-22-17-48.png" alt="gofer-go logo" width="40%" border="0">
 </p>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ This is an inter-college social media application where users can interact to ea
   </em>
   <br />
   <em>
-    <a href="https://wetalk021.herokuapp.com/">
+    <a href="https://gofer-go.herokuapp.com/">
       Try it!
     </a>
   </em>
@@ -44,17 +44,17 @@ This is an inter-college social media application where users can interact to ea
  <img src="https://img.shields.io/badge/file%20count-204-yellow" /> 
  <img src="https://img.shields.io/badge/lines%20count-4132-brightgreen" /> 
  <img src="https://img.shields.io/badge/repo%20size-935.8 kB-blue" />
- <img src="https://img.shields.io/github/last-commit/8-bit-souvik/weTalk" /> 
+ <img src="https://img.shields.io/github/last-commit/8-bit-souvik/gofer-go" /> 
  </p>
  
  <br/>
  
-## [Click here to land on the Homepage](https://wetalk021.herokuapp.com/)
+## [Click here to land on the Homepage](https://gofer-go.herokuapp.com/)
 
 
 ## Intro
 
-[weTalk](https://wetalk021.herokuapp.com/) is a Social media application built with NodeJS where user can get socialize with each other by uploading post, like and comment on their posts.
+[Gofer-Go](https://gofer-go.herokuapp.com/) is a Social media application built with NodeJS where user can get socialize with each other by uploading post, like and comment on their posts.
 
 ## Summary
 
@@ -89,7 +89,7 @@ This is an inter-college social media application where users can interact to ea
 
 
 ###  🌐 This application is now remotely hosted <br/>
-### 👉 [here is the link](https://wetalk021.herokuapp.com/)
+### 👉 [here is the link](https://gofer-go.herokuapp.com/)
 
 <br/>
 
@@ -140,35 +140,9 @@ now start the server by running `npm start`<br/>
 go to the browser and type URL `localhost:5510`<br/>
 
 <br/>
-<br/>
-<br/>
 
-###  📦 Or use Docker compose:
-
-# Docker setup (Local Env)
-
-## Docker engine installation
-   install docker engine from [here](https://docs.docker.com/engine/install/)
-   
-## Docker Compose installation
-   install docker compose from [here](https://docs.docker.com/compose/install/)
-   
-## Get docker-compose.yml:
-
-   Save the [yml file](https://github.com/8-bit-souvik/weTalk/blob/master/docker-compose.yml) for docker-compose
-    
- ## Pull and run containers
- 
-   - Run command `sudo docker-compose up` or `sudo docker-compose up -d` ([detached mode](https://docs.docker.com/engine/reference/run/#detached-vs-foreground)) to run containers
-   - check those running containers by command: `sudo docker ps`
-    
- ## Enjoy it!
- 
-   Go to the browser and type URL `localhost:5510`<br/>
-    
-<br>
-
-<b>for any kind of problem or queries contact me on  &nbsp; <a href="https://twitter.com/souvik0759/"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>  or  <a href="https://www.linkedin.com/in/souvikmandal20/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+ <br>
+<b>for any kind of problem or queries contact me on  &nbsp; <a href="https://twitter.com/8bitsouvik/"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"></a>  or  <a href="https://www.linkedin.com/in/8bitsouvik/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 DM is open 📩
 

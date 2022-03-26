@@ -1,7 +1,7 @@
 version: '3'
 services:
   api-server:
-    image: 8bitsouvik/wetalk-local
+    image: 8bitsouvik/gofergo-local
     ports:
       - "5510:5510"
     networks:
