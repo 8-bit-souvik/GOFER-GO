@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Official bloging site">
+    <meta name="keywords" content="Blog, Tech, Dev">
+    <meta name="author" content="Souvik Mandal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/modalpost.css">
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>WeTalk</title>
+</head>
+
+<body>
+    <%- include('../partials/header') %>
+
+        <br>
+        <br>
+        <br>
+
+        <section class="body">
+
+
+            <%- include('../partials/navigation') %>
+
+
+                <section class="news_feed" id="news_feed">
+
+                    <section></section>
+
+                    <a href="/new_post" style="height: 40px; text-decoration: none;">
+                        <div id="post" style="text-align: center;">
+                            <b>Post your Thoughts</b> <br><br> <span style="color: rgb(23, 18, 18);"> <b
+                                    style="color: rgb(23, 18, 18);">Pro Tip:</b> use <a
+                                    href="https://www.markdownguide.org/basic-syntax/">markdown syntax</a> to present it
+                                in better way </span>
+                        </div>
+                    </a>
+
+                </section>
+                <section class="extension">
+
+
+                    <div class="discover">
+
+                        <% if (!verified) { %>
+                            <div>
+                                <br>
+                                <h2 style="font-size: 30px; font-weight: 200;">SignUp for free to unlock exciting features! 🤩</h2>
+                                <br>
+                                <br>
+                                <a href="https://github.com/login/oauth/authorize?client_id=<%= client_id %>" style="background-color:black; color: white; padding:1.5ch 2ch; border-radius: 5px; text-align:center; box-shadow: 1px 1px 5px cadetblue;"><span class="fa fa-github"></span> Continue with GitHub</a>
+                            </div>
+                        <% } %>
+                    </div>
+                </section>
+        </section>
+
+
+
+
+        <!-- <div class="popup_button"></div> -->
+
+        <!-- The Modal -->
+
+
+
+
+
+        <%- include('../partials/expantion_modal') %>
+            <%- include('../partials/delete_modal') %>
+
+
+
+
+                <script>
+
+                </script>
+
+
+
+</body>
+
+<script src="/public/script.js"></script>
+<script src="/public/newsfeed.js"></script>
+<script src="/public/discover.js"></script>
+<script src="/public/modalpost.js"></script>
+<script src="/public/sortmodal.js"></script>
+
+<script>
+
+</script>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Official bloging site">
+    <meta name="keywords" content="Blog, Tech, Dev">
+    <meta name="author" content="Souvik Mandal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <title>About</title>
+</head>
+
+<body>
+    <%- include('../partials/header') %>
+
+    <br>
+    <br>
+    <br>
+
+    <section class="body">
+
+
+        <%- include('../partials/navigation') %>
+
+
+
+        <section class="news_feed">
+
+            <section></section>
+
+            <div id="about">
+                <div class="desc">
+                    <div class="summary">About - WeTalk</div> 
+                    <div class="detail">This web-app is built for learning purpose where registered members can interact with each other like a news feed</div>
+                 </div>
+
+                 <br>
+                 <br>
+
+                 <div class="desc">
+                    <div class="summary">Features</div> 
+                    <br>
+                    <div class="detail" style="text-align: left;">- First thing first, user have to signin with github account</div>
+                    <br>
+                    <div class="detail" style="text-align: left;">- User can see What other users are posting</div>
+                    <br>
+                    <div class="detail" style="text-align: left;">- User can also upload any post (till now only text), character limit: 1-1500</div>
+                    <br>
+                    <div class="detail" style="text-align: left;">- User can like and comment in any post</div>
+                    <br>
+                    <div class="detail" style="text-align: left;">- User can hide any post for that time from news feed</div>
+                    <br>
+                    <div class="detail" style="text-align: left;">- User can delete his own post or comment</div>
+                 </div>
+
+                 <br>
+                 <br>
+
+                 <div class="desc">
+                    <div class="summary">Help Me</div> 
+                    <div class="detail">Give me idea to expand any feature or contribute to the source code by raising issue or fixing bug to improve </div>
+                 </div>
+                 <div class="links">
+                     <a href="https://github.com/8-bit-souvik/weTalk">github Link </a>
+                     <a href="https://linktr.ee/8_bit_souvik">Contact me </a>
+                 </div>
+
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+
+
+        </section>
+        <section class="extension">
+            <div class="discover">
+                <% if (!verified) { %>
+                    <div>
+                        <br>
+                        <h2 style="font-size: 30px; font-weight: 200;">SignUp for free to unlock exciting features! 🤩</h2>
+                        <br>
+                        <br>
+                        <a href="https://github.com/login/oauth/authorize?client_id=<%= client_id %>" style="background-color:black; color: white; padding:1.5ch 2ch; border-radius: 5px; text-align:center; box-shadow: 1px 1px 5px cadetblue;"><span class="fa fa-github"></span> Continue with GitHub</a>
+                    </div>
+                <% } %>
+            </div>
+        </section>
+    </section>
+
+    <!-- <div class="popup_button"></div> -->
+
+
+</body>
+
+<script src="/public/script.js"></script>
+<script src="/public/discover.js"></script>
+
+</html>
